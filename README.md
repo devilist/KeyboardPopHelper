@@ -4,7 +4,7 @@
 
 #使用方法
 
-``
+```
 KeyboardPopHelper.instance(this)
                 .bindEditText(edittext1,edittext2,...)              // 绑定目标edittext
                 .bindRootView(findViewById(R.id.scrollview))        // 绑定页面根布局
@@ -12,4 +12,4 @@ KeyboardPopHelper.instance(this)
                 .setBottomMargin(10)                                // focusView的bottom
                 .setOffset(-100)                                    // 固定模式下的偏移
                 .monitor();
-``
+```
