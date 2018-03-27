@@ -2,7 +2,7 @@
 这是一个可以防止键盘弹出时遮挡输入控件的工具类。
 当页面有多个edittext时，会自动根据当前获得焦点的edittext进行页面自适应，使输入区域不被键盘遮挡，提高交互体验。
 
-#使用方法
+# 使用方法
 
 ```
 KeyboardPopHelper.instance(this)
